@@ -1,9 +1,9 @@
 import { Caps, MIcon } from './atoms.jsx';
 
 const VIBE_BIG = {
-  title: 'Soonday', sub: 'Founder · AI-First Venture', year: '2024',
-  blurb: 'Building an AI-first venture from concept to shipped beta — design, code, and growth.',
-  img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCKWhk6L93eGuEljqfzX2KKrKJTm_pxsuWPZhk_GbGALp3kBjcztev3iYO8uO7C3Fvw2NhsWK7kQPX12yGN1gnFFxcUQY2esR2WsSeGF857hRukDXXajKxFJtb_yWp-efoCGkf3TXUlEQ6rZjVkdVISBMpI3FqiGEEfnp6Dar3AlZTAQvNQOXIqmeQ97A86YY5-rxoUvxb3NzXAIgMJGDXNQlwBIDVJ7XmYdCnWZCWUUPTzuJSSqlwjGrHun-Kc679ql5A7arFuRTKA'
+  title: 'AI-First Venture', year: '2024',
+  blurb: 'Building an AI-First Venture from Concept to Shipped Beta.',
+  img: '/images/soonday.png'
 };
 
 function SectionHeader({ eyebrow, title, count }) {
@@ -35,7 +35,7 @@ export function VibeSection({ accent }) {
             <div className="vv-bento-hero-text">
               <Caps color="rgba(255,255,255,0.7)" style={{ marginBottom: 10, display: 'block' }}>{VIBE_BIG.year} · AI-Assisted Eng</Caps>
               <div className="vv-bento-hero-title">{VIBE_BIG.title}</div>
-              <div className="vv-bento-hero-sub">{VIBE_BIG.sub}</div>
+              <div className="vv-bento-hero-sub">{VIBE_BIG.blurb}</div>
             </div>
           </a>
           <div className="vv-bento-side">
