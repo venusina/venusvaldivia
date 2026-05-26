@@ -101,7 +101,7 @@ export default function App() {
     "viewport": "fluid",
     "hero": "editorial",
     "cardStyle": "outlined",
-    "accent": "#000000"
+    "accent": "#1B4825"
   };
 
   const [tweaks, setTweak] = useTweaks(TWEAK_DEFAULTS);

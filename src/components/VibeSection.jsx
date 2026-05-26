@@ -3,7 +3,7 @@ import { Caps, MIcon } from './atoms.jsx';
 const VIBE_BIG = {
   title: 'Soonday', sub: 'Founder · AI-First Venture', year: '2024',
   blurb: 'Building an AI-first venture from concept to shipped beta — design, code, and growth.',
-  img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCKWhk6L93eGuEljqfzX2KKrKJTm_pxsuWPZhk_GbGALp3kBjcztev3iYO8uO7C3Fvw2NhsWK7kQPX12yGN1gnFFxcUQY2esR2WsSeGF857hRukDXXajKxFJtb_yWp-efoCGkf3TXUlEQ6rZjVkdVISBMpI3FqiGEEfnp6Dar3AlZTAQvNQOXIqmeQ97A86YY5-rxoUvxb3NzXAIgMJGDXNQlwBIDVJ7XmYdCnWZCWUUPTzuJSSqlwjGrHun-Kc679ql5A7arFuRTKA'
+  img: '/images/soonday-outcome.png'
 };
 
 function SectionHeader({ eyebrow, title, count }) {
