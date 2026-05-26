@@ -9,7 +9,14 @@ export function Footer() {
         </div>
         <div className="vv-footer-r">
           {['LinkedIn', 'Read.cv', 'Are.na', 'Privacy'].map((x) => (
-            <a key={x} href="#">{x}</a>
+            <a
+              key={x}
+              href={x === 'LinkedIn' ? 'https://www.linkedin.com/in/venus-valdivia-darmody-6016791a/' : '#'}
+              target={x === 'LinkedIn' ? '_blank' : undefined}
+              rel={x === 'LinkedIn' ? 'noopener noreferrer' : undefined}
+            >
+              {x}
+            </a>
           ))}
         </div>
       </div>

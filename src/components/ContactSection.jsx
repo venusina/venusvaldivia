@@ -31,7 +31,12 @@ export function ContactSection({ accent }) {
               </div>
               <MIcon name="arrow_outward" size={18} style={{ opacity: 0.5 }} />
             </a>
-            <a href="#" className="vv-contact-row">
+            <a
+              href="https://www.linkedin.com/in/venus-valdivia-darmody-6016791a/"
+              className="vv-contact-row"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <div>
                 <Caps color="rgba(255,255,255,0.45)">Elsewhere</Caps>
                 <div className="vv-contact-v">LinkedIn</div>
