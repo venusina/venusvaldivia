@@ -41,7 +41,7 @@ function CSHero() {
         <div style={{ width: '100%', aspectRatio: '21/9', overflow: 'hidden', background: 'var(--surface-2)' }}>
           <img
             alt="Soonday platform hero"
-            src="/images/soonday.png"
+            src="/images/soonday-main.png"
             style={{ width: '100%', height: '100%', objectFit: 'cover' }}
           />
         </div>
@@ -204,7 +204,7 @@ function CSCompetitor() {
         <div style={{ width: '100%', overflow: 'hidden', background: 'var(--surface-2)' }}>
           <img
             alt="Competitor landscape analysis"
-            src="/images/soonday.png"
+            src="/images/soonday-competitors.png"
             style={{
               width: '100%',
               display: 'block',
@@ -364,7 +364,7 @@ function CSFlowArchitecture() {
           <div style={{ width: '100%', overflow: 'hidden', background: 'var(--surface-2)' }}>
             <img
               alt="User flow architecture diagram"
-              src="/images/soonday.png"
+              src="/images/soonday-Onboarding .png"
               style={{
                 width: '100%',
                 display: 'block',
@@ -380,7 +380,7 @@ function CSFlowArchitecture() {
           <div style={{ width: '100%', overflow: 'hidden', background: 'var(--surface-2)' }}>
             <img
               alt="Wireframe explorations"
-              src="/images/soonday.png"
+              src="/images/soonday-wireframes.png"
               style={{
                 width: '100%',
                 display: 'block',
@@ -404,7 +404,7 @@ function CSPrototype({ accent }) {
           <div style={{ width: '100%', overflow: 'hidden', background: 'var(--surface-2)', aspectRatio: '3/4' }}>
             <img
               alt="Rapid prototype screens"
-              src="/images/soonday.png"
+              src="/images/soonday-vibe.png"
               style={{
                 width: '100%',
                 height: '100%',
@@ -463,7 +463,7 @@ function CSDesignSystems() {
         <div style={{ width: '100%', overflow: 'hidden', background: 'var(--surface-2)' }}>
           <img
             alt="Soonday design system"
-            src="/images/soonday.png"
+            src="/images/soonday-outcome.png"
             style={{
               width: '100%',
               display: 'block',
