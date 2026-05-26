@@ -47,6 +47,7 @@ function CSHero({ accent }) {
             <img
               alt="Atlassian product interface"
               src="/images/atlassian.png"
+              loading="lazy"
             />
           </div>
         </div>
@@ -92,6 +93,7 @@ function CSMapping() {
           <img
             alt="Current state product mapping"
             src="https://lh3.googleusercontent.com/aida-public/AB6AXuDSXOIBsE3ySVjZuy6J-opwYANjTB7UiE33v5T79yBKeouknrEthXxmIfgbHZIb5J4yP1zeEACug9TTxzhYUnklsAlzTc_5fpWTzPWHka8tTZFIlAUq8EoRQSWUlPG2VyaRhhan7ojApi72COLoTK4alPrNR9eFy-SBrINJBtm1UsP82ZajT_recekCQ8xErZVqkMGhv7f_IbLb1GwmrIgCRDCjHZ2qy3FdBq88cIfcKeFKpfHdGJe-pbgznTyJ4mSusxxoeFJ86SLx"
+            loading="lazy"
           />
         </div>
         <p className="vv-cs-caption">
@@ -169,6 +171,7 @@ function CSApproach({ accent }) {
               <img
                 alt="Iterative design exploration"
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuAjrzkjS728dcBWMotBUcgkAFsIW4wpdJRidLoLEUCL0cckMqnbHTtLGOcF-23T9vDnBaEan_05_5aZkuuqdRG0LBNNQCObpYOtoI1J4M9Sl35bPTrO9Y-PjbTZcVnaikbL_qXc5lCbICOh4xVXzzmEL04QNflIRjHlDbUhzidxKOjsouEWpN6kh_KxEG-sL40ML38z9Vxvl9zSwLiMbhXQrH5uT6tUXa8fmC0DCMhSrJn0Mksz3fBADtjbVQdiPCrrWYgVAj7xF-4Z"
+                loading="lazy"
               />
             </div>
             <p className="vv-cs-caption">Iterative design exploration for contextual upgrade prompts.</p>
@@ -212,6 +215,7 @@ function CSApproach({ accent }) {
               <img
                 alt="Design critique"
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-yY1Yn3OCeLpXgj9hKyuw8qugIj5mK9rfWqE6tDVl2spoubZ-Bb5xaVMZjybE41fNSsgTXjYcTEDsEHPLHjKpKPTCDPwILgSEGCEOAy_xx7bo1EjAWuxnrDxqSpRTyxyeeZnmLPeCqvnsOETIlYWvjzXCILoXFReHx7wsKcwF9cAIPyHeGs1vOLlJOZ-KmvJM3UK9HRQAPw3eX38CB8LHebFEaRyYMFsrHU94tBW1G0S4QR5BLIx4odWaX4chzloc_NaO8mmI7hv8"
+                loading="lazy"
               />
             </div>
             <div className="vv-cs-iter-text">

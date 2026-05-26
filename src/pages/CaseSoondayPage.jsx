@@ -42,6 +42,7 @@ function CSHero() {
           <img
             alt="Soonday platform hero"
             src="/images/soonday-main.png"
+            loading="lazy"
             style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'grayscale(1) contrast(1.25)' }}
           />
         </div>
@@ -166,6 +167,7 @@ function CSVerticals() {
               <img
                 alt={v.label}
                 src={v.src}
+                loading="lazy"
                 style={{
                   width: '100%',
                   height: '100%',
@@ -207,6 +209,7 @@ function CSCompetitor() {
           <img
             alt="Competitor landscape analysis"
             src="/images/soonday-competitors.png"
+            loading="lazy"
             style={{
               width: '100%',
               display: 'block',
@@ -368,6 +371,7 @@ function CSFlowArchitecture() {
             <img
               alt="User flow architecture diagram"
               src="/images/soonday-Onboarding.png"
+              loading="lazy"
               style={{
                 width: '100%',
                 display: 'block',
@@ -385,6 +389,7 @@ function CSFlowArchitecture() {
             <img
               alt="Wireframe explorations"
               src="/images/soonday-wireframes.png"
+              loading="lazy"
               style={{
                 width: '100%',
                 display: 'block',
@@ -410,6 +415,7 @@ function CSPrototype({ accent }) {
             <img
               alt="Rapid prototype screens"
               src="/images/soonday-vibe.png"
+              loading="lazy"
               style={{
                 width: '100%',
                 height: '100%',
@@ -470,6 +476,7 @@ function CSDesignSystems() {
           <img
             alt="Soonday design system"
             src="/images/soonday-outcome.png"
+            loading="lazy"
             style={{
               width: '100%',
               display: 'block',

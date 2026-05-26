@@ -23,6 +23,7 @@ function AboutHero({ accent }) {
           <img
             alt="Venus Valdivia portrait"
             src="https://lh3.googleusercontent.com/aida-public/AB6AXuAybvsrtSwrKkhDr12W5NAFxGlRNt32IN8lue-Pu0K6ipYCZBWinMtYXuJiMWmnz1G5yiw77zB1jU6-MctIcGiybP1HSLUVTB5CJDgLJozdbm31zUmrzGvboH8nG4tPy8ZAaETjCjaIQDLCa8wZ4Qxz7KKttncyzhttjSU3UOs-lekzrCHnhldqFh7VPmTJf2u1AeupmzHgjwOu07weCffjbe5yw6Z_Uk6wfTV5d0mSk7qmgmgNWlSonsUXgzDU3nWcn6xavI40kWs-"
+            loading="lazy"
           />
         </div>
       </div>

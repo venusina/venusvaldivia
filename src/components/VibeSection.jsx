@@ -26,7 +26,7 @@ export function VibeSection({ accent }) {
         <SectionHeader eyebrow="Side quests · Built solo" title="Vibe coding & AI" />
         <div className="vv-bento">
           <a href="#case-soonday" className="vv-bento-hero">
-            <img src={VIBE_BIG.img} alt={VIBE_BIG.title} />
+            <img src={VIBE_BIG.img} alt={VIBE_BIG.title} loading="lazy" />
             <div className="vv-bento-hero-overlay" />
             <div className="vv-bento-hero-tag">
               <span className="vv-dot vv-dot-live" />

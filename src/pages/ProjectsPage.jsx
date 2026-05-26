@@ -7,7 +7,7 @@ function ProjectArchiveCard({ p, accent, stagger }) {
   return (
     <article className={`vv-archive-card ${stagger ? 'is-stagger' : ''}`}>
       <a href={href} {...linkProps} className="vv-archive-card-art">
-        <img src={p.img} alt={p.title} />
+        <img src={p.img} alt={p.title} loading="lazy" />
       </a>
       <div className="vv-archive-card-body">
         <div className="vv-archive-card-head">

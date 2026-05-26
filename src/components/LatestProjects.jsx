@@ -32,7 +32,7 @@ function ProjectCardOutlined({ p, reverse }) {
         </a>
       </div>
       <div className="vv-card-art">
-        <img src={p.img} alt={p.title} />
+        <img src={p.img} alt={p.title} loading="lazy" />
       </div>
     </article>
   );
@@ -55,7 +55,7 @@ function ProjectCardEditorial({ p, accent }) {
         {p.title} <span className="vv-card-edi-sub">— {p.sub}</span>
       </h3>
       <div className="vv-card-edi-art">
-        <img src={p.img} alt={p.title} />
+        <img src={p.img} alt={p.title} loading="lazy" />
       </div>
       <p className="vv-card-edi-blurb">{p.blurb}</p>
       <span className="vv-card-edi-cta" style={{ borderColor: accent }}>

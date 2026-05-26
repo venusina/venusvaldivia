@@ -53,7 +53,7 @@ export function HeroImage({ accent }) {
       <div className="vv-container">
         <div className="vv-hero-image-grid">
           <div className="vv-hero-image-art">
-            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=900&q=80" alt="" />
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=900&q=80" alt="" loading="lazy" />
             <div className="vv-hero-image-overlay" />
             <div className="vv-hero-image-meta-top">
               <Caps color="rgba(255,255,255,0.7)">Portfolio · 2014—2026</Caps>
