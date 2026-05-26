@@ -41,8 +41,8 @@ function CSHero() {
         <div style={{ width: '100%', aspectRatio: '21/9', overflow: 'hidden', background: 'var(--surface-2)' }}>
           <img
             alt="Soonday platform hero"
-            src="https://lh3.googleusercontent.com/aida/ADBb0uhDqhjCpL4g-pIldLYvEKQwPbB7e9q4kJ70WN3W4G-8aS13vb4EhFvnDZMhGEqzP-u0iB-7-LxZLS-JhxUORtFIxRQXj4O7r-GaRvyAqVcA_vo7VEe7k9sdkdmqKJhNyRCcqYJBnLPGJlCvOrFM0MN0074QL_fVFfOUbnmSsE_M3Q8hYY_TD8bm1vI0C4ESe_BQUl7kcBAul0KLdbSv_y47jzbkGaAcCxV0EATI2KehrAfdMtkxZBiAA8Y58b_NxbOyfSMvoTbPBug"
-            style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'grayscale(1) contrast(1.25)' }}
+            src="/images/soonday.png"
+            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
           />
         </div>
       </div>
@@ -123,19 +123,19 @@ function CSOpportunity({ accent }) {
 const VERTICALS = [
   {
     label: 'Spa & Wellness',
-    src: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDyfSzFm9K1mZYcXhknp8HROwYPbAWC-TzSPmA0Ywwfxuc1rhx8mdHLVmZTgfZEB0J87AeNt83_Vwq7nULyI3O6-9q3t0lkVDDlbNWt6TkaNlNjbVET4ktpOAR8cprTN5tGJM88rBI5wgCOMn6XGge5Ix4WG-xxiu2dAeKngEZYG2AToqHNhVuEiofaO3lWkaYHHRN4GCmeMv9k87OHEnhNlGrea6dYlFRmyyBAj0DS8I6iVRLC33a0MDqlLM5KDwfRAYam7DX-YSY9',
+    src: '/images/soonday.png',
   },
   {
     label: 'Fitness',
-    src: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAp6IwQL3uS0lp9ws-gtSxsF1rYnHPeGnGe1apkqoevoJG-uJ_eWDZFcBOz6O5bKJZreTR1bTWNsORvnNCElZQJYYwMDbwegzZRrmUEzGvA7FpqmFJgkGIWhDqeblZ9_3NKQ4jp96ojyrV9Cm2oSIb-PFKmjaH9tztAHpbAu8Uu6t5NEL5XVntQk_mLnMshgdvOwMh-TY8qRx0_Hz4lm4tgTLZRaeMOJaTidqN5NlOu6bs489rvb2nIW_ukrEhQyRwKdlZ8GPoz8kZq',
+    src: '/images/soonday.png',
   },
   {
     label: 'Beauty',
-    src: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDsxG9nRsGDsj9l1BAzioorTeM7Nlp5JeZu9LOPVc__Z2X1cfvs5V-il9HSbquvHS33lU08pRpcfvDJWRG4IXXfSWkZ2MDL2JafVkTfQjWDhzXHcrs86-bbfCVQXK09f_iXWR4fWuWvyOkxJWCoAIRMLsXrr69oCxZ9ibzYCpsdyVZS2sUxd_XW80KBmdF0LGUVZ6VBqzlqxmc3DT8jYc8jUSlDmFcQVp_IqJp_x2aP9odemWZr2cRKQGYHeBosWGuEhoAV',
+    src: '/images/soonday.png',
   },
   {
     label: 'Lifestyle',
-    src: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAL5Lj4ZC6r_JGoeBdvF5kDIOYTaVNxR62RlsB1NolQaDUTN9Wra-5u13jQIvJ9Jn3dKFcXQFcRL-ZG5vAedPv3JKXRckXP5l-9oOhlWfytbq7_-lbI7rvcl2M9F3_RFS_jSqi4V0-TsGfIVBTJrjDmWgbiSvTcG2lDQ2uKmkB3zxrchTTyyurGy4oZV9tkQealZ45FXX6p2PY1kUtvmtukKrX5mtAQolq0NGe_6ztrc_mH6IucSTgNCiDpO_hBMMPaYeEIe6Ibdh3A',
+    src: '/images/soonday.png',
   },
 ];
 
@@ -170,7 +170,6 @@ function CSVerticals() {
                   width: '100%',
                   height: '100%',
                   objectFit: 'cover',
-                  filter: 'grayscale(1) contrast(1.25)',
                   transition: 'transform 600ms cubic-bezier(0.16, 1, 0.3, 1)',
                   display: 'block',
                 }}
@@ -178,7 +177,6 @@ function CSVerticals() {
               <div style={{
                 position: 'absolute',
                 inset: 0,
-                background: 'linear-gradient(to top, rgba(0,0,0,0.7) 0%, transparent 50%)',
                 display: 'flex',
                 alignItems: 'flex-end',
                 padding: 24,
@@ -206,11 +204,10 @@ function CSCompetitor() {
         <div style={{ width: '100%', overflow: 'hidden', background: 'var(--surface-2)' }}>
           <img
             alt="Competitor landscape analysis"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuB8xM3bGbvpIg1Q8-6aUnzYUgS7OJy8RHSxCKvEM5HD2G9aLVa8ksWHzf_OewFW_xDu7lulMnH5CRQ6eHGMs0aExx7GAOyPFG2_xxVxhUbYl8GDGoPJdcYW-NdB-03dDf4aZudgayqBUl08plAT52X9WVkCWRjMFqaUyPpR-Fp9llcWiU6YTii69DPHHobEChSg8xafex7lfUU_5FgWLZRg-T7YbWWC7B7phgoWHB1EgUNm-8c2B_mccNQOfBnaWknYe9B3xpfs1MfP"
+            src="/images/soonday.png"
             style={{
               width: '100%',
               display: 'block',
-              filter: 'grayscale(1) contrast(1.25)',
             }}
           />
         </div>
@@ -367,11 +364,10 @@ function CSFlowArchitecture() {
           <div style={{ width: '100%', overflow: 'hidden', background: 'var(--surface-2)' }}>
             <img
               alt="User flow architecture diagram"
-              src="https://lh3.googleusercontent.com/aida/ADBb0uino__DNfeHy6jPtBeJqgQYSyhyhp93wgN2ZM8n3wNmT9yvz9xMYnTkniWelhQhNTQJ-UExJmADKzATEOZLq-R1w_alCKL08zrkcdem6ftUsp30NfnScK-RdxOu96lBWkezwiUPaBsik72XF4l5lM7twBI6GDpUQVMIedUwPlRhffEFDFVVQIJ0RuPuI6fubF9CzHekG9VkDJZRJjPbTYFPsOOuMfx7bPSxuBKzyfrcEE6KKolxRyu7Z1JjB2anQfmqOxhRAE0Aug"
+              src="/images/soonday.png"
               style={{
                 width: '100%',
                 display: 'block',
-                filter: 'grayscale(1) contrast(1.25)',
               }}
             />
           </div>
@@ -384,11 +380,10 @@ function CSFlowArchitecture() {
           <div style={{ width: '100%', overflow: 'hidden', background: 'var(--surface-2)' }}>
             <img
               alt="Wireframe explorations"
-              src="https://lh3.googleusercontent.com/aida/ADBb0ujq6nJ3gABiQ1_7734aisDLl_H5cj_ZiwowzjEKnZl80DXHL1j98Ci29NZFbxrvYF6UTNt7fGxezbbn0oWPcZc-3PAPz-mNFF1qqF5xkdSOI1xBljzNjg4fNM0ul9YYjDng_ROTsjbkd_OtqzvCYcYdA_jMJXhc4BL-oufx7RaYP07ujLgtg3qrnC-uWOOZ7ZAxP6q8IB2UtUkCc0u1SbPfIeUsRiOtCwcda1DONu5qeqiM6e_P_nHfWtE9cfj6-5sYEuZ97o7M-VA"
+              src="/images/soonday.png"
               style={{
                 width: '100%',
                 display: 'block',
-                filter: 'grayscale(1) contrast(1.25)',
               }}
             />
           </div>
@@ -409,12 +404,11 @@ function CSPrototype({ accent }) {
           <div style={{ width: '100%', overflow: 'hidden', background: 'var(--surface-2)', aspectRatio: '3/4' }}>
             <img
               alt="Rapid prototype screens"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuAPH7iBi3CaZ7SwLd8EpII73yueYli_zG3ZJjEwZpB_3ZG3MVWUYFp5FMI5ltDdYLCnKuiFnVom9ByLa1vRGu84K6IqfyZhCcz2S3brl2XBPmkddeMH27FLRVbA9ijUUnQ-xpVQJY-Kd2VvGv9r_-BARQkVvD0u0aZQcOXmJM0TpA0hTwBdmD2CioomgEXhFtRw5z6wEcJs8uCP25xOlikMdMHWy0y7VR7JeQ8N4YBZP-ANcQVyq5__WkXotj7ZIABAFwFcoaELAlKtF5A"
+              src="/images/soonday.png"
               style={{
                 width: '100%',
                 height: '100%',
                 objectFit: 'cover',
-                filter: 'grayscale(1) contrast(1.25)',
                 display: 'block',
               }}
             />
@@ -469,11 +463,10 @@ function CSDesignSystems() {
         <div style={{ width: '100%', overflow: 'hidden', background: 'var(--surface-2)' }}>
           <img
             alt="Soonday design system"
-            src="https://lh3.googleusercontent.com/aida/ADBb0uhpI-Hp4wTkap1duXklJ5LCHR9rlcNR4bwlljSN_PFqWyyIddmv6HiVaA8LbjkX1VQHCCGx3PSi9hMhF4nDNRWiQXfSIdw6pV25DxCP3_J-LxUUByS7dUjhh1p4xR6VCXXZK-38f5ZkXXX6xAjwEs3-mDWmiuYp6-dAwLP2283blwxt0LoWuf7FUHBN4qVC_ibrdeZe5XTeJyIk8s_O2-gZQfdbPqL-KFfnvY5sCBFSvg_heakHf4W9batwSnUJzzqXc80c9USYXlahKM"
+            src="/images/soonday.png"
             style={{
               width: '100%',
               display: 'block',
-              filter: 'grayscale(1) contrast(1.25)',
             }}
           />
         </div>
