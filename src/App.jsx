@@ -11,6 +11,7 @@ import { ContactSection } from './components/ContactSection.jsx';
 import { AboutPage } from './pages/AboutPage.jsx';
 import { ProjectsPage } from './pages/ProjectsPage.jsx';
 import { CaseAtlassianPage } from './pages/CaseAtlassianPage.jsx';
+import { CaseSoondayPage } from './pages/CaseSoondayPage.jsx';
 import {
   TweaksPanel,
   TweakSection,
@@ -77,6 +78,8 @@ function Site({ tweaks }) {
           <ProjectsPage accent={accent} />
         ) : route === 'case-atlassian' ? (
           <CaseAtlassianPage accent={accent} />
+        ) : route === 'case-soonday' ? (
+          <CaseSoondayPage accent={accent} />
         ) : (
           <>
             <Hero accent={accent} />
