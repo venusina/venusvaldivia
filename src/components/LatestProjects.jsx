@@ -69,11 +69,10 @@ export function LatestProjects({ cardVariant, accent }) {
   return (
     <section className="vv-section" id="work">
       <div className="vv-container">
-        <SectionHeader
-          eyebrow="Selected · 2023—2025"
-          title="Latest projects"
-          count={`${PROJECTS.length} / 12`}
-        />
+        <header className="vv-section-head">
+          <h2 className="vv-section-title" style={{ fontSize: 26 }}>Latest projects</h2>
+          <div className="vv-rule" />
+        </header>
         <div className={`vv-cards ${cardVariant === 'editorial' ? 'is-editorial' : 'is-outlined'}`}>
           {PROJECTS.map((p, i) =>
             cardVariant === 'editorial' ? (

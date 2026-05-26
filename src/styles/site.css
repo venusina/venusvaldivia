@@ -1756,6 +1756,30 @@ body {
 .vv-cs-next { border-top: 1px solid var(--rule); padding: 64px 0; }
 @container site (min-width: 760px) { .vv-cs-next { padding: 96px 0; } }
 .vv-cs-next-inner { display: flex; flex-direction: column; gap: 20px; }
+
+/* Soonday case page overrides: keep original image colours and remove overlays */
+[data-screen-label*="Soonday"] img {
+  filter: none !important;
+  -webkit-filter: none !important;
+}
+
+[data-screen-label*="Soonday"] .vv-bento-hero-overlay,
+[data-screen-label*="Soonday"] .vv-bento-hero .vv-bento-hero-overlay {
+  display: none !important;
+  background: transparent !important;
+}
+
+[data-screen-label*="Soonday"] .vv-bento-hero {
+  background: transparent !important;
+}
+
+[data-screen-label*="Soonday"] .vv-cs-mapping-art img,
+[data-screen-label*="Soonday"] .vv-cs-hero-art img,
+[data-screen-label*="Soonday"] .vv-cs-iter-art img,
+[data-screen-label*="Soonday"] .vv-cs-bento-explore-img img {
+  filter: none !important;
+  -webkit-filter: none !important;
+}
 .vv-cs-next-title {
   display: inline-flex; align-items: center; gap: 16px;
   font-family: var(--display);

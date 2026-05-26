@@ -7,20 +7,20 @@ export function ContactSection({ accent }) {
         <div className="vv-contact">
           <div className="vv-contact-text">
             <Caps color="rgba(255,255,255,0.55)" style={{ display: 'block', marginBottom: 18 }}>
-              Currently · Open for Q3 work
+              Currently · Open for work
             </Caps>
             <h2 className="vv-contact-title">
               Let's build<br />something <span className="vv-italic" style={{ color: accent }}>that ships.</span>
             </h2>
             <p className="vv-contact-lede">
-              I take 1–2 projects a quarter — strategy, design lead, or fractional design partner. Drop a line and I'll send process notes + a calendar.
+              From leading product teams and end-to-end digital products to design engineering and UX strategy. I bridge design, systems, and execution. Drop me a line to discuss future projects.
             </p>
           </div>
           <div className="vv-contact-list">
-            <a href="mailto:venus@valdivia.co" className="vv-contact-row">
+            <a href="mailto:venusdarmody@gmail.com" className="vv-contact-row">
               <div>
                 <Caps color="rgba(255,255,255,0.45)">Email</Caps>
-                <div className="vv-contact-v">venus@valdivia.co</div>
+                <div className="vv-contact-v">Venus Valdivia</div>
               </div>
               <MIcon name="content_copy" size={18} style={{ opacity: 0.5 }} />
             </a>
@@ -34,7 +34,7 @@ export function ContactSection({ accent }) {
             <a href="#" className="vv-contact-row">
               <div>
                 <Caps color="rgba(255,255,255,0.45)">Elsewhere</Caps>
-                <div className="vv-contact-v">LinkedIn · Read.cv · Are.na</div>
+                <div className="vv-contact-v">LinkedIn</div>
               </div>
               <MIcon name="arrow_outward" size={18} style={{ opacity: 0.5 }} />
             </a>
