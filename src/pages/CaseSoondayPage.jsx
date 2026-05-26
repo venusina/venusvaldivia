@@ -42,7 +42,7 @@ function CSHero() {
           <img
             alt="Soonday platform hero"
             src="/images/soonday-main.png"
-            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+            style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'grayscale(1) contrast(1.25)' }}
           />
         </div>
       </div>
@@ -123,19 +123,19 @@ function CSOpportunity({ accent }) {
 const VERTICALS = [
   {
     label: 'Spa & Wellness',
-    src: '/images/soonday.png',
+    src: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDyfSzFm9K1mZYcXhknp8HROwYPbAWC-TzSPmA0Ywwfxuc1rhx8mdHLVmZTgfZEB0J87AeNt83_Vwq7nULyI3O6-9q3t0lkVDDlbNWt6TkaNlNjbVET4ktpOAR8cprTN5tGJM88rBI5wgCOMn6XGge5Ix4WG-xxiu2dAeKngEZYG2AToqHNhVuEiofaO3lWkaYHHRN4GCmeMv9k87OHEnhNlGrea6dYlFRmyyBAj0DS8I6iVRLC33a0MDqlLM5KDwfRAYam7DX-YSY9',
   },
   {
     label: 'Fitness',
-    src: '/images/soonday.png',
+    src: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAp6IwQL3uS0lp9ws-gtSxsF1rYnHPeGnGe1apkqoevoJG-uJ_eWDZFcBOz6O5bKJZreTR1bTWNsORvnNCElZQJYYwMDbwegzZRrmUEzGvA7FpqmFJgkGIWhDqeblZ9_3NKQ4jp96ojyrV9Cm2oSIb-PFKmjaH9tztAHpbAu8Uu6t5NEL5XVntQk_mLnMshgdvOwMh-TY8qRx0_Hz4lm4tgTLZRaeMOJaTidqN5NlOu6bs489rvb2nIW_ukrEhQyRwKdlZ8GPoz8kZq',
   },
   {
     label: 'Beauty',
-    src: '/images/soonday.png',
+    src: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDsxG9nRsGDsj9l1BAzioorTeM7Nlp5JeZu9LOPVc__Z2X1cfvs5V-il9HSbquvHS33lU08pRpcfvDJWRG4IXXfSWkZ2MDL2JafVkTfQjWDhzXHcrs86-bbfCVQXK09f_iXWR4fWuWvyOkxJWCoAIRMLsXrr69oCxZ9ibzYCpsdyVZS2sUxd_XW80KBmdF0LGUVZ6VBqzlqxmc3DT8jYc8jUSlDmFcQVp_IqJp_x2aP9odemWZr2cRKQGYHeBosWGuEhoAV',
   },
   {
     label: 'Lifestyle',
-    src: '/images/soonday.png',
+    src: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAL5Lj4ZC6r_JGoeBdvF5kDIOYTaVNxR62RlsB1NolQaDUTN9Wra-5u13jQIvJ9Jn3dKFcXQFcRL-ZG5vAedPv3JKXRckXP5l-9oOhlWfytbq7_-lbI7rvcl2M9F3_RFS_jSqi4V0-TsGfIVBTJrjDmWgbiSvTcG2lDQ2uKmkB3zxrchTTyyurGy4oZV9tkQealZ45FXX6p2PY1kUtvmtukKrX5mtAQolq0NGe_6ztrc_mH6IucSTgNCiDpO_hBMMPaYeEIe6Ibdh3A',
   },
 ];
 
@@ -170,6 +170,7 @@ function CSVerticals() {
                   width: '100%',
                   height: '100%',
                   objectFit: 'cover',
+                  filter: 'grayscale(1) contrast(1.25)',
                   transition: 'transform 600ms cubic-bezier(0.16, 1, 0.3, 1)',
                   display: 'block',
                 }}
@@ -177,6 +178,7 @@ function CSVerticals() {
               <div style={{
                 position: 'absolute',
                 inset: 0,
+                background: 'linear-gradient(to top, rgba(0,0,0,0.7) 0%, transparent 50%)',
                 display: 'flex',
                 alignItems: 'flex-end',
                 padding: 24,
@@ -208,6 +210,7 @@ function CSCompetitor() {
             style={{
               width: '100%',
               display: 'block',
+              filter: 'grayscale(1) contrast(1.25)',
             }}
           />
         </div>
@@ -364,10 +367,11 @@ function CSFlowArchitecture() {
           <div style={{ width: '100%', overflow: 'hidden', background: 'var(--surface-2)' }}>
             <img
               alt="User flow architecture diagram"
-              src="/images/soonday-Onboarding .png"
+              src="/images/soonday-Onboarding.png"
               style={{
                 width: '100%',
                 display: 'block',
+                filter: 'grayscale(1) contrast(1.25)',
               }}
             />
           </div>
@@ -384,6 +388,7 @@ function CSFlowArchitecture() {
               style={{
                 width: '100%',
                 display: 'block',
+                filter: 'grayscale(1) contrast(1.25)',
               }}
             />
           </div>
@@ -409,6 +414,7 @@ function CSPrototype({ accent }) {
                 width: '100%',
                 height: '100%',
                 objectFit: 'cover',
+                filter: 'grayscale(1) contrast(1.25)',
                 display: 'block',
               }}
             />
@@ -467,6 +473,7 @@ function CSDesignSystems() {
             style={{
               width: '100%',
               display: 'block',
+              filter: 'grayscale(1) contrast(1.25)',
             }}
           />
         </div>
