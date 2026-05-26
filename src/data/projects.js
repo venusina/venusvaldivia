@@ -100,7 +100,7 @@ export const PROJECTS_ALL = [
     id: 'sbs',
     title: 'SBS',
     year: '2019',
-    blurb: 'Redefining the SBS On Demand streaming experience. A deep dive into video-on-demand patterns and multicultural content discoverability.',
+    blurb: 'Led the UX strategy across the SBS digital ecosystem, including SBS On Demand, News, Food, Events, and multicultural content experiences. Focused on improving discoverability, information architecture, and navigation across complex platforms and content systems.',
     img: '/images/sbs.png'
   },
   {
