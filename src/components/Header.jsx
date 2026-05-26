@@ -13,7 +13,7 @@ export function Header({ accent, onOpenMenu }) {
           <a href="#projects">All projects</a>
         </nav>
         <div className="vv-header-cta">
-          <a href="#contact" className="vv-btn vv-btn-solid" style={{ background: accent }}>
+          <a href="#contact" className="vv-btn vv-btn-solid" style={{ background: '#000000', color: '#ffffff' }}>
             <span>Get in touch</span>
             <MIcon name="arrow_outward" size={14} />
           </a>

@@ -20,7 +20,8 @@ export function MIcon({ name, size = 22, weight = 400, fill = 0, style }) {
         fontSize: size,
         fontVariationSettings: `'FILL' ${fill}, 'wght' ${weight}, 'GRAD' 0, 'opsz' 24`,
         lineHeight: 1,
-        ...style, color: "rgb(0, 0, 0)"
+        ...style,
+        color: style?.color || 'currentColor'
       }}>
       {name}
     </span>

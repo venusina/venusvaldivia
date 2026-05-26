@@ -29,13 +29,10 @@ export function ProjectsPage({ accent }) {
     <div data-screen-label="Venus Valdivia · projects">
       <section className="vv-archive-head-section">
         <div className="vv-container">
-          <Caps style={{ display: 'block', marginBottom: 16, letterSpacing: '0.22em' }}>
-            Selected Portfolio
-          </Caps>
           <h1 className="vv-archive-h1">Projects</h1>
           <div className="vv-archive-head-meta">
-            <Caps>2018 — 2023</Caps>
-            <Caps>{PROJECTS_ALL.length} case studies</Caps>
+            <Caps>Selected portfolio</Caps>
+            <Caps>{PROJECTS_ALL.length} 2016 — 2026</Caps>
           </div>
           <div className="vv-rule" />
         </div>
