@@ -1,9 +1,9 @@
 import { Caps, MIcon } from './atoms.jsx';
 
 const VIBE_BIG = {
-  title: 'Soonday', sub: 'Founder · AI-First Venture', year: '202',
+  title: 'Soonday', sub: 'Founder · AI-First Venture', year: '2024',
   blurb: 'Building an AI-first venture from concept to shipped beta — design, code, and growth.',
-  img: '/images/soonday-outcome.png'
+  img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuCKWhk6L93eGuEljqfzX2KKrKJTm_pxsuWPZhk_GbGALp3kBjcztev3iYO8uO7C3Fvw2NhsWK7kQPX12yGN1gnFFxcUQY2esR2WsSeGF857hRukDXXajKxFJtb_yWp-efoCGkf3TXUlEQ6rZjVkdVISBMpI3FqiGEEfnp6Dar3AlZTAQvNQOXIqmeQ97A86YY5-rxoUvxb3NzXAIgMJGDXNQlwBIDVJ7XmYdCnWZCWUUPTzuJSSqlwjGrHun-Kc679ql5A7arFuRTKA'
 };
 
 function SectionHeader({ eyebrow, title, count }) {
@@ -26,11 +26,11 @@ export function VibeSection({ accent }) {
         <SectionHeader eyebrow="Side quests · Built solo" title="UX Engineering & AI Workflows" />
         <div className="vv-bento">
           <a href="#case-soonday" className="vv-bento-hero">
-            <img src={VIBE_BIG.img} alt={VIBE_BIG.title} loading="lazy" />
+            <img src={VIBE_BIG.img} alt={VIBE_BIG.title} />
             <div className="vv-bento-hero-overlay" />
             <div className="vv-bento-hero-tag">
               <span className="vv-dot vv-dot-live" />
-              <Caps color="rgba(255,255,255,0.85)">Live · soonday.com.au</Caps>
+              <Caps color="rgba(255,255,255,0.85)">Live · soonday.co</Caps>
             </div>
             <div className="vv-bento-hero-text">
               <Caps color="rgba(255,255,255,0.7)" style={{ marginBottom: 10, display: 'block' }}>{VIBE_BIG.year} · AI-Assisted Eng</Caps>
@@ -39,18 +39,18 @@ export function VibeSection({ accent }) {
             </div>
           </a>
           <div className="vv-bento-side">
-            <div className="vv-bento-card">
+            <a href="#case-ai-engineering" className="vv-bento-card">
               <div>
                 <Caps>2025</Caps>
-                <div className="vv-bento-card-title">UX Engineering</div>
+                <div className="vv-bento-card-title">UX Engineering & AI</div>
                 <div className="vv-bento-card-blurb">
-                  AI-assisted workflows beyond traditional “vibe coding.”
+                  Rethinking how AI tools integrate into a precision design-to-code workflow.
                 </div>
               </div>
               <div className="vv-bento-card-cta">
                 Read <MIcon name="arrow_outward" size={14} />
               </div>
-            </div>
+            </a>
             <a href="#" className="vv-bento-cta-card">
               <div className="vv-bento-cta-title">View all<br />side projects</div>
               <div className="vv-bento-cta-foot">

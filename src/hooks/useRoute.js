@@ -7,6 +7,7 @@ export function useRoute() {
     if (h === 'projects') return 'projects';
     if (h === 'case-atlassian') return 'case-atlassian';
     if (h === 'case-soonday') return 'case-soonday';
+    if (h === 'case-ai-engineering') return 'case-ai-engineering';
     return 'home';
   };
 

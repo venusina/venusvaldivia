@@ -12,6 +12,7 @@ import { AboutPage } from './pages/AboutPage.jsx';
 import { ProjectsPage } from './pages/ProjectsPage.jsx';
 import { CaseAtlassianPage } from './pages/CaseAtlassianPage.jsx';
 import { CaseSoondayPage } from './pages/CaseSoondayPage.jsx';
+import { CaseAIEngineeringPage } from './pages/CaseAIEngineeringPage.jsx';
 import {
   TweaksPanel,
   TweakSection,
@@ -80,6 +81,8 @@ function Site({ tweaks }) {
           <CaseAtlassianPage accent={accent} />
         ) : route === 'case-soonday' ? (
           <CaseSoondayPage accent={accent} />
+        ) : route === 'case-ai-engineering' ? (
+          <CaseAIEngineeringPage accent={accent} />
         ) : (
           <>
             <Hero accent={accent} />
@@ -101,7 +104,7 @@ export default function App() {
     "viewport": "fluid",
     "hero": "editorial",
     "cardStyle": "outlined",
-    "accent": "#6F7985"
+    "accent": "#000000"
   };
 
   const [tweaks, setTweak] = useTweaks(TWEAK_DEFAULTS);
