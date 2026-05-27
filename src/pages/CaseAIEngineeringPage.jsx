@@ -32,10 +32,8 @@ function CSHero() {
           </Caps>
           <h1 className="vv-cs-hero-title">Rethinking AI-Generated Design</h1>
           <p className="vv-cs-hero-lede">
-            While building my portfolio, I intentionally explored AI-assisted workflows beyond traditional “vibe coding.” I found many AI-generated websites tend to feel visually repetitive, overly templated, and lacking in product thinking or personality.
-
-Rather than relying entirely on prompt-to-website generation, I approached the process as a UX engineer
-          </p>My goal was not simply to generate a website quickly, but to explore how AI could accelerate production while still maintaining intentional design direction, usability, and craft.
+            Beyond "vibe coding" and repetitive prompt-based templates. This study explores an advanced UX Engineering workflow that treats AI instrument rather than a black-box generator, prioritising architectural control and brand-specific visual systems
+          </p>
         </div>
 
         <div style={{ width: '100%', aspectRatio: '21/9', overflow: 'hidden', background: 'var(--surface-2)' }}>
@@ -69,17 +67,11 @@ function CSDesignDirection() {
         </div>
         <div className="vv-cs-two-col-r">
           <p className="vv-cs-body">
-            Every AI-augmented project begins not with a prompt, but with a Figma file. Establishing
-            a rigorous design direction — typography scales, colour systems, component hierarchies —
-            creates the constraints within which AI tools can operate productively. Without this
-            foundation, generative outputs default to the statistically average: competent, but
-            indistinguishable.
+            I started by defining the visual language and interaction direction in Figma. Instead of creating isolated screens, I focused on scalable visual consistency, typography hierarchy, spacing systems
+and reusable UI patterns. 
           </p>
           <p className="vv-cs-body">
-            A well-constructed visual system acts as gravitational pull on AI outputs. By feeding
-            design tokens, spacing rules, and brand rationale into the generation process, the
-            resulting code aligns with intent rather than pattern-matching against generic templates.
-            This is the difference between a tool that assists and one that creates noise.
+            This allowed me to establish a cohesive design foundation before introducing AI tooling into the workflow.
           </p>
         </div>
       </div>
@@ -106,10 +98,8 @@ function CSExperimenting() {
         </div>
         <div className="vv-cs-two-col-r">
           <p className="vv-cs-body">
-            The first phase of experimentation involved systematic testing of AI generation tools
-            against a controlled design brief. Each tool was evaluated not for its output quality
-            in isolation, but for how faithfully it could interpret structured design specifications
-            and translate them into maintainable, scalable front-end code.
+            During the process, I explored multiple AI-driven approaches for translating design into production-ready code. One experiment involved feeding Claude directly with Figma design system structures to evaluate how effectively AI could interpret component patterns and layout logic.
+            However, because I did not yet have a fully mature design system in place, I pivoted toward a more hybrid workflow that balanced control, speed, and scalability.
           </p>
 
           <blockquote style={{
@@ -278,10 +268,7 @@ function CSAugmentedDev() {
         </div>
         <div className="vv-cs-two-col-r">
           <p className="vv-cs-body">
-            The mature workflow treats AI as an accelerant applied to well-defined engineering
-            tasks, never as a decision-maker for aesthetic or architectural choices. Three
-            operational modes structure the day-to-day practice — each with clear human oversight
-            and defined quality gates.
+            To streamline iteration and development, I configured: VS Code > Claude AI workflows > GitHub version control > and Vercel deployment, This allowed me to rapidly test, refine, and publish updates while experimenting with AI-assisted engineering practices.
           </p>
 
           <div style={{
@@ -331,14 +318,20 @@ function CSConclusion() {
           <Caps style={{ letterSpacing: '0.2em', display: 'block', marginBottom: 20 }}>
             CONCLUSION
           </Caps>
-          <h2 className="vv-cs-display">Bridging Design &amp; Engineering</h2>
-          <p className="vv-cs-body" style={{ fontSize: 'clamp(18px, 2.2cqi, 24px)', lineHeight: 1.5, color: 'var(--ink-dim)' }}>
-            The evolving role of the UX Engineer is no longer about manual labor, but about
-            high-level curation. By understanding AI&rsquo;s limitations — its tendency toward
-            the &lsquo;average&rsquo; and its lack of brand context — we can harness its speed
-            to elevate the craft. The future of design is not AI-generated; it is AI-amplified,
-            human-directed, and engineering-led.
-          </p>
+          <h3 className="vv-cs-display">Exploration &amp; future of UX Engineering</h3>
+          <div className="vv-cs-body" style={{ fontSize: 'clamp(18px, 2.2cqi, 24px)', lineHeight: 1.7, color: 'var(--ink-dim)', textAlign: 'left' }}>
+            <p>Was this process faster than a traditional workflow? Not necessarily — at least not yet.</p>
+            <p>However, the project became an important exploration into the future of UX engineering and AI-assisted product creation.</p>
+            <p>More importantly, it allowed me to:</p>
+            <ul>
+              <li>bridge UX design and front-end engineering</li>
+              <li>experiment with emerging AI workflows</li>
+              <li>improve my technical implementation skills</li>
+              <li>understand the limitations of AI-generated interfaces</li>
+              <li>develop systems for guiding AI outputs with stronger product thinking</li>
+            </ul>
+            <p>The final result reflects a hybrid approach where design strategy, UX thinking, front-end implementation, and AI tooling work together to create more intentional digital products.</p>
+          </div>
           <a
             href="#projects"
             className="vv-cs-back"
