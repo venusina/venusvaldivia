@@ -3,7 +3,7 @@ import { Caps, MIcon } from './atoms.jsx';
 const VIBE_BIG = {
   title: 'Soonday', sub: 'Founder · AI-First Venture', year: '2024',
   blurb: 'Building an AI-first venture from concept to shipped beta — design, code, and growth.',
-  img: 'soonday-outcome.png'
+  img: '/images/soonday-outcome.png'
 };
 
 function SectionHeader({ eyebrow, title, count }) {

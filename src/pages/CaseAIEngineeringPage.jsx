@@ -32,10 +32,10 @@ function CSHero() {
           </Caps>
           <h1 className="vv-cs-hero-title">Rethinking AI-Generated Design</h1>
           <p className="vv-cs-hero-lede">
-            Beyond &lsquo;vibe coding&rsquo; and repetitive prompt-based templates. This study explores
-            an advanced UX Engineering workflow that treats AI as a precision instrument rather than a
-            black-box generator, prioritizing architectural control and brand-specific visual systems.
-          </p>
+            While building my portfolio, I intentionally explored AI-assisted workflows beyond traditional “vibe coding.” I found many AI-generated websites tend to feel visually repetitive, overly templated, and lacking in product thinking or personality.
+
+Rather than relying entirely on prompt-to-website generation, I approached the process as a UX engineer
+          </p>My goal was not simply to generate a website quickly, but to explore how AI could accelerate production while still maintaining intentional design direction, usability, and craft.
         </div>
 
         <div style={{ width: '100%', aspectRatio: '21/9', overflow: 'hidden', background: 'var(--surface-2)' }}>
