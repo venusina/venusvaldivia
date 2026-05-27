@@ -32,7 +32,7 @@ export function ProjectsPage({ accent }) {
           <h1 className="vv-archive-h1">Projects</h1>
           <div className="vv-archive-head-meta">
             <Caps>Selected portfolio</Caps>
-            <Caps>{PROJECTS_ALL.length} 2016 — 2026</Caps>
+            <Caps>2016 — 2026</Caps>
           </div>
           <div className="vv-rule" />
         </div>

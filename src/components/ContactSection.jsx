@@ -10,7 +10,9 @@ export function ContactSection({ accent }) {
               Currently · Open for work
             </Caps>
             <h2 className="vv-contact-title">
-              Let's build<br />something <span className="vv-italic" style={{ color: accent }}>that ships.</span>
+              Let's build<br />something <span className="vv-italic" style={{ color: accent }}>
+                
+              </span>
             </h2>
             <p className="vv-contact-lede">
               From leading product teams and end-to-end digital products to design engineering and UX strategy. I bridge design, systems, and execution. Drop me a line to discuss future projects.

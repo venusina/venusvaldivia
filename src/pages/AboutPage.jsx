@@ -157,7 +157,7 @@ function AboutNewsletter({ accent }) {
             <Caps>Email address</Caps>
             <input
               type="email"
-              placeholder="your@email.com"
+              placeholder="venusdarmody@gmail.com"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
