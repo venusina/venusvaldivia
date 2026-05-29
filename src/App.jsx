@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { lazy, Suspense, useState, useEffect } from 'react';
 import { useRoute } from './hooks/useRoute.js';
 import { Header } from './components/Header.jsx';
 import { Footer } from './components/Footer.jsx';
@@ -8,11 +8,11 @@ import { LatestProjects } from './components/LatestProjects.jsx';
 import { VibeSection } from './components/VibeSection.jsx';
 import { FactsStrip } from './components/FactsStrip.jsx';
 import { ContactSection } from './components/ContactSection.jsx';
-import { AboutPage } from './pages/AboutPage.jsx';
-import { ProjectsPage } from './pages/ProjectsPage.jsx';
-import { CaseAtlassianPage } from './pages/CaseAtlassianPage.jsx';
-import { CaseSoondayPage } from './pages/CaseSoondayPage.jsx';
-import { CaseAIEngineeringPage } from './pages/CaseAIEngineeringPage.jsx';
+const AboutPage = lazy(() => import('./pages/AboutPage.jsx'));
+const ProjectsPage = lazy(() => import('./pages/ProjectsPage.jsx'));
+const CaseAtlassianPage = lazy(() => import('./pages/CaseAtlassianPage.jsx'));
+const CaseSoondayPage = lazy(() => import('./pages/CaseSoondayPage.jsx'));
+const CaseAIEngineeringPage = lazy(() => import('./pages/CaseAIEngineeringPage.jsx'));
 import {
   TweaksPanel,
   TweakSection,
@@ -73,25 +73,27 @@ function Site({ tweaks }) {
     <div className="vv-site" data-screen-label={`Venus Valdivia · ${route}`}>
       <Header accent={accent} onOpenMenu={() => setMenuOpen(true)} />
       <main>
-        {route === 'about' ? (
-          <AboutPage accent={accent} />
-        ) : route === 'projects' ? (
-          <ProjectsPage accent={accent} />
-        ) : route === 'case-atlassian' ? (
-          <CaseAtlassianPage accent={accent} />
-        ) : route === 'case-soonday' ? (
-          <CaseSoondayPage accent={accent} />
-        ) : route === 'case-ai-engineering' ? (
-          <CaseAIEngineeringPage accent={accent} />
-        ) : (
-          <>
-            <Hero accent={accent} />
-            <LatestProjects cardVariant={tweaks.cardStyle} accent={accent} />
-            <FactsStrip accent={accent} />
-            <VibeSection accent={accent} />
-            <ContactSection accent={accent} />
-          </>
-        )}
+        <Suspense fallback={null}>
+          {route === 'about' ? (
+            <AboutPage accent={accent} />
+          ) : route === 'projects' ? (
+            <ProjectsPage accent={accent} />
+          ) : route === 'case-atlassian' ? (
+            <CaseAtlassianPage accent={accent} />
+          ) : route === 'case-soonday' ? (
+            <CaseSoondayPage accent={accent} />
+          ) : route === 'case-ai-engineering' ? (
+            <CaseAIEngineeringPage accent={accent} />
+          ) : (
+            <>
+              <Hero accent={accent} />
+              <LatestProjects cardVariant={tweaks.cardStyle} accent={accent} />
+              <FactsStrip accent={accent} />
+              <VibeSection accent={accent} />
+              <ContactSection accent={accent} />
+            </>
+          )}
+        </Suspense>
       </main>
       <Footer />
       <MobileMenu open={menuOpen} onClose={() => setMenuOpen(false)} accent={accent} />

@@ -40,6 +40,8 @@ function CSHero() {
           <img
             alt="Rethinking AI-Generated Design hero"
             src="https://lh3.googleusercontent.com/aida-public/AB6AXuCnhDi_CYK_Z8LCdV7Y8GOattk4w0_GTzNzo7aMuCsmHv8QSX74JkqC1YWYnc0waE-j6JfKPYErJt8cPNmwc-_mqWTAYm95Ejz_MJUWABCPw4GGCdMhmYscBC7PwnSL8BwgiLMZ7mCqy_SlEm8MXMITnceicoq20xzAYdhSkWPRtmWiQzimHejlbdXcOp4-T11K10fpulzWtwEutbgQG9iakMNxpep_2xQ8UmTeDz9XRLq9Kd_Sx6lYnQM1GW-1bOVSEUWsCdQ--v9T"
+            loading="lazy"
+            decoding="async"
             style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'grayscale(1) contrast(1.25)' }}
           />
         </div>
@@ -318,7 +320,7 @@ function CSConclusion() {
           <Caps style={{ letterSpacing: '0.2em', display: 'block', marginBottom: 20 }}>
             CONCLUSION
           </Caps>
-          <h3 className="vv-cs-display">Exploration &amp; future of UX Engineering</h3>
+          <h2 className="vv-cs-display">Exploration &amp; future of UX Engineering</h2>
           <div className="vv-cs-body" style={{ fontSize: 'clamp(18px, 2.2cqi, 24px)', lineHeight: 1.7, color: 'var(--ink-dim)', textAlign: 'left' }}>
             <p>Was this process faster than a traditional workflow? Not necessarily — at least not yet.</p>
             <p>However, the project became an important exploration into the future of UX engineering and AI-assisted product creation.</p>
