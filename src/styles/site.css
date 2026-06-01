@@ -1770,3 +1770,6 @@ body {
 .vv-cs-next-title:hover { gap: 24px; }
 
 
+
+.vv-header-cta .vv-btn-solid { background: #000000 !important; color: #ffffff !important; }
+.vv-hero .vv-hero-ctas .vv-btn-solid { background: #5856D6 !important; color: #ffffff !important; border-color: #5856D6 !important; }
