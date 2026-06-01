@@ -5,8 +5,7 @@ export function Header({ accent, onOpenMenu }) {
     <header className="vv-header">
       <div className="vv-container vv-header-inner">
         <a href="#top" className="vv-logo">
-          <span className="vv-logo-mark" style={{ background: accent }} />
-          <span>Venus Valdivia</span>
+<span>Venus Valdivia</span>
         </a>
         <nav className="vv-nav-desktop">
           <a href="#about">About</a>
