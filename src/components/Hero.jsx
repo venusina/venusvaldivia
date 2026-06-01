@@ -4,11 +4,7 @@ export function HeroEditorial({ accent }) {
   return (
     <section className="vv-hero vv-hero-editorial" id="top">
       <div className="vv-container">
-        <Caps style={{ display: 'inline-flex', alignItems: 'center', gap: 8, marginBottom: 18 }}>
-          <span className="vv-dot-static" style={{ background: accent }} />
-          Available · Q3 2026 · Remote or London
-        </Caps>
-        <div className="vv-hero-hi">Hi, I'm Venus.</div>
+<div className="vv-hero-hi">Hi, I'm Venus.</div>
         <h1 className="vv-hero-title">
           Design Lead <span className="vv-amp">&amp;</span> Product Strategist
         </h1>
