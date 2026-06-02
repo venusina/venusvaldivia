@@ -10,7 +10,7 @@ export function ContactSection({ accent }) {
               Currently · Open for Q3 work
             </Caps>
             <h2 className="vv-contact-title">
-              Let's build<br />something <span className="vv-italic" style={{ color: accent }}>that ships.</span>
+              Let's build<br />something
             </h2>
             <p className="vv-contact-lede">
               I take 1–2 projects a quarter — strategy, design lead, or fractional design partner. Drop a line and I'll send process notes + a calendar.
