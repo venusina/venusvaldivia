@@ -17,24 +17,24 @@ export function ContactSection({ accent }) {
             </p>
           </div>
           <div className="vv-contact-list">
-            <a href="mailto:venus@valdivia.co" className="vv-contact-row">
+            <a href="mailto:venusdarmody@gmail.com" className="vv-contact-row">
               <div>
                 <Caps color="rgba(255,255,255,0.45)">Email</Caps>
-                <div className="vv-contact-v">venus@valdivia.co</div>
+                <div className="vv-contact-v">email me</div>
               </div>
               <MIcon name="content_copy" size={18} style={{ opacity: 0.5 }} />
             </a>
             <a href="#" className="vv-contact-row">
               <div>
                 <Caps color="rgba(255,255,255,0.45)">Calendar</Caps>
-                <div className="vv-contact-v">Book a 20-min intro</div>
+                <div className="vv-contact-v">Book a quick intro</div>
               </div>
               <MIcon name="arrow_outward" size={18} style={{ opacity: 0.5 }} />
             </a>
             <a href="#" className="vv-contact-row">
               <div>
                 <Caps color="rgba(255,255,255,0.45)">Elsewhere</Caps>
-                <div className="vv-contact-v">LinkedIn · Read.cv · Are.na</div>
+                <div className="vv-contact-v">LinkedIn · Read.cv</div>
               </div>
               <MIcon name="arrow_outward" size={18} style={{ opacity: 0.5 }} />
             </a>
