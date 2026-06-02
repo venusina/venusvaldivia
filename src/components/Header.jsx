@@ -14,7 +14,7 @@ export function Header({ accent, onOpenMenu }) {
         <div className="vv-header-cta">
           <span className="vv-status">
             <span className="vv-dot" />
-            <span className="vv-status-text">Open · Q3 2026</span>
+            <span className="vv-status-text">Available</span>
           </span>
           <a href="#contact" className="vv-btn vv-btn-solid" style={{ background: accent }}>
             <span>Get in touch</span>

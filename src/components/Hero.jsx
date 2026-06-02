@@ -13,7 +13,7 @@ export function HeroEditorial({ accent }) {
         </p>
         <div className="vv-hero-ctas">
           <a href="#contact" className="vv-btn vv-btn-solid" style={{ ...{ background: accent }, background: "rgb(240, 210, 15)", borderStyle: "solid", borderWidth: "1px", borderColor: "rgb(24, 23, 23)", color: "rgb(1, 1, 1)" }}>
-            Get in touch <MIcon name="arrow_outward" size={16} />
+            Get in touch <MIcon name="arrow_outward" size={16} style={{ color: '#fff' }} />
           </a>
           <a href="#work" className="vv-btn vv-btn-ghost">
             See projects <MIcon name="expand_more" size={16} />
