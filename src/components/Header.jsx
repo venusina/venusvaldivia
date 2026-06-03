@@ -18,7 +18,7 @@ export function Header({ accent, onOpenMenu }) {
           </span>
           <a href="#contact" className="vv-btn vv-btn-solid" style={{ background: accent }}>
             <span>Get in touch</span>
-            <MIcon name="arrow_outward" size={14} />
+            <MIcon name="arrow_outward" size={14} style={{ color: '#fff' }} />
           </a>
           <button className="vv-burger" onClick={onOpenMenu} aria-label="Menu">
             <MIcon name="menu" size={22} />

@@ -113,8 +113,8 @@ function AboutPillars({ accent }) {
 const TOOLS = [
   { icon: 'draw', name: 'Figma' },
   { icon: 'code', name: 'React / Tailwind' },
-  { icon: 'memory', name: 'Midjourney' },
-  { icon: 'auto_awesome', name: 'Stable Diffusion' },
+  { icon: 'memory', name: 'Vercel' },
+  { icon: 'auto_awesome', name: 'Claude code' },
   { icon: 'database', name: 'Notion' },
   { icon: 'terminal', name: 'VS Code' },
 ];
@@ -125,7 +125,7 @@ function AboutTools() {
       <div className="vv-container">
         <div className="vv-about-tools-head">
           <Caps>Ecosystem</Caps>
-          <h2 className="vv-about-h2">Technical arsenal &amp; tools</h2>
+          <h2 className="vv-about-h2">Technical &amp; tools</h2>
         </div>
         <div className="vv-about-tools-grid">
           {TOOLS.map((t) => (
@@ -146,7 +146,7 @@ function AboutNewsletter({ accent }) {
     <section className="vv-about-newsletter">
       <div className="vv-container vv-about-newsletter-inner">
         <h2 className="vv-about-newsletter-title">
-          Let's build something <span className="vv-italic">substantial</span> together.
+          Let's build  <span className="vv-italic">something</span> together.
         </h2>
         <form
           className="vv-about-newsletter-form"
