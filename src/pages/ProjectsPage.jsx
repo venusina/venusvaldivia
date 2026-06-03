@@ -2,6 +2,7 @@ import { Caps, MIcon } from '../components/atoms.jsx';
 import { PROJECTS_ALL } from '../data/projects.js';
 
 function ProjectArchiveCard({ p, accent, stagger }) {
+  const hasPage = p.external || ['atlassian', 'soonday', 'ai-engineering'].includes(p.id);
   const href = p.href || `#case-${p.id}`;
   const linkProps = p.external ? { target: '_blank', rel: 'noopener noreferrer' } : {};
   return (
@@ -15,10 +16,12 @@ function ProjectArchiveCard({ p, accent, stagger }) {
           <Caps>{p.year}</Caps>
         </div>
         <p className="vv-archive-card-blurb">{p.blurb}</p>
-        <a href={href} {...linkProps} className="vv-archive-card-link" style={{ borderColor: accent }}>
-          <span>View project</span>
-          <MIcon name="arrow_forward" size={14} />
-        </a>
+        {hasPage && (
+          <a href={href} {...linkProps} className="vv-archive-card-link" style={{ borderColor: accent }}>
+            <span>View project</span>
+            <MIcon name="arrow_forward" size={14} />
+          </a>
+        )}
       </div>
     </article>
   );
@@ -35,7 +38,7 @@ export function ProjectsPage({ accent }) {
           <h1 className="vv-archive-h1">Projects</h1>
           <div className="vv-archive-head-meta">
             <Caps>2016 — 2026</Caps>
-            <Caps>{PROJECTS_ALL.length} case studies</Caps>
+            <Caps>{PROJECTS_ALL.length} Some work isn't publicly available</Caps>
           </div>
           <div className="vv-rule" />
         </div>
