@@ -7,7 +7,7 @@ export function ContactSection({ accent }) {
         <div className="vv-contact">
           <div className="vv-contact-text">
             <Caps color="rgba(255,255,255,0.55)" style={{ display: 'block', marginBottom: 18 }}>
-              Currently · Open for Q3 work
+              Available
             </Caps>
             <h2 className="vv-contact-title">
               Let's build<br />something
@@ -31,7 +31,7 @@ export function ContactSection({ accent }) {
               </div>
               <MIcon name="arrow_outward" size={18} style={{ opacity: 0.5 }} />
             </a>
-            <a href="#" className="vv-contact-row">
+            <a href="/images/venus%20UX%202026.pdf" download="venus UX 2026.pdf" className="vv-contact-row">
               <div>
                 <Caps color="rgba(255,255,255,0.45)">Elsewhere</Caps>
                 <div className="vv-contact-v">LinkedIn · Read.cv</div>
