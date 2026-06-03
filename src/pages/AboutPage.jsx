@@ -10,9 +10,9 @@ function AboutHero({ accent }) {
             <span className="vv-dot-static" style={{ background: accent }} />
             <Caps>Product design &amp; strategy</Caps>
           </span>
-          <h1 className="vv-about-display">
-            Venus <span className="vv-italic">Valdivia.</span>
-          </h1>
+          <h2 className="vv-about-display">
+            Venus <span className="vv-italic">Darmody.</span>
+          </h2>
           <p className="vv-about-lede">
             I specialise in leading product design strategy and generative AI workflows
             and integration.
@@ -54,8 +54,8 @@ function AboutBio({ accent }) {
             high-retention products that drive measurable business growth.
           </p>
           <div className="vv-about-bio-ctas">
-            <a href="#" className="vv-btn vv-btn-solid" style={{ background: accent }}>
-              Download CV <MIcon name="download" size={14} />
+            <a href="/images/venus%20UX%202026.pdf" download="venus UX 2026.pdf" className="vv-btn vv-btn-solid" style={{ background: accent }}>
+              Download CV <MIcon name="download" size={14} style={{ color: '#fff' }} />
             </a>
             <a href="#contact" className="vv-btn vv-btn-ghost">
               Email me <MIcon name="mail" size={14} />
