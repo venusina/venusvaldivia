@@ -28,7 +28,7 @@ function CSHero() {
 
         <div style={{ marginBottom: 40 }}>
           <Caps style={{ letterSpacing: '0.2em', display: 'block', marginBottom: 20 }}>
-            RETHINKING AI-GENERATED DESIGN
+            RETHINKING DESIGN &amp; PROCESS WITH AI
           </Caps>
           <h1 className="vv-cs-hero-title">UX ENGINEERING PROCESS</h1>
           <p className="vv-cs-hero-lede">
