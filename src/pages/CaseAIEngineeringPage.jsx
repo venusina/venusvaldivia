@@ -28,11 +28,11 @@ function CSHero() {
 
         <div style={{ marginBottom: 40 }}>
           <Caps style={{ letterSpacing: '0.2em', display: 'block', marginBottom: 20 }}>
-            RETHINKING DESIGN &amp; PROCESS WITH AI
+            RETHINKING DESIGN PROCESS WITH AI
           </Caps>
           <h1 className="vv-cs-hero-title">UX ENGINEERING PROCESS</h1>
           <p className="vv-cs-hero-lede">
-            This study explores an advanced UX Engineering workflow that treats AI as a precision instrument, prioritising ai workflows and brand-specific designsystems.
+            This study explores an advanced UX Engineering workflow that treats AI as a precision instrument, prioritising ai workflows and brand-specific designsy stems.
           </p>
         </div>
 
