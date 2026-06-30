@@ -24,10 +24,10 @@ export function ContactSection({ accent }) {
               </div>
               <MIcon name="content_copy" size={18} style={{ opacity: 0.5 }} />
             </a>
-            <a href="#" className="vv-contact-row">
+            <a href="https://www.linkedin.com/in/venus-darmody-6016791a" target="_blank" rel="noreferrer noopener" className="vv-contact-row">
               <div>
-                <Caps color="rgba(255,255,255,0.45)">Calendar</Caps>
-                <div className="vv-contact-v">Book a quick intro</div>
+                <Caps color="rgba(255,255,255,0.45)">Socials</Caps>
+                <div className="vv-contact-v">LinkedIn</div>
               </div>
               <MIcon name="arrow_outward" size={18} style={{ opacity: 0.5 }} />
             </a>

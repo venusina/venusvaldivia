@@ -11,7 +11,7 @@ export function Footer() {
           {['LinkedIn', 'Read.cv'].map((x) => (
             <a
               key={x}
-              href={x === 'LinkedIn' ? 'https://www.linkedin.com' : '/images/venus%20UX%202026.pdf'}
+              href={x === 'LinkedIn' ? 'https://www.linkedin.com/in/venus-darmody-6016791a' : '/images/venus%20UX%202026.pdf'}
               {...(x === 'Read.cv' ? { download: 'venus UX 2026.pdf' } : {})}
               target={x === 'LinkedIn' ? '_blank' : undefined}
               rel={x === 'LinkedIn' ? 'noreferrer noopener' : undefined}
