@@ -9,7 +9,7 @@ export function HeroEditorial({ accent }) {
           Design Lead <span className="vv-amp">&amp;</span> Product Strategist
         </h1>
         <p className="vv-hero-lede">
-          I lead design on high-retention AI products and build the internal workflows that drive business growth.
+          I lead AI-first product initiatives within complex environments and build AI workflows that drive business growth.
         </p>
         <div className="vv-hero-ctas">
           <a href="#contact" className="vv-btn vv-btn-solid" style={{ ...{ background: accent }, background: "rgb(240, 210, 15)", borderStyle: "solid", borderWidth: "1px", borderColor: "rgb(24, 23, 23)", color: "rgb(1, 1, 1)" }}>

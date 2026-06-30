@@ -23,7 +23,7 @@ export function VibeSection({ accent }) {
   return (
     <section className="vv-section" id="vibe">
       <div className="vv-container">
-        <SectionHeader eyebrow="Side quests · Built solo" title="UX Engineering & AI Workflows" />
+        <SectionHeader eyebrow="Personal Projects" title="UX Engineering & AI Workflows" />
         <div className="vv-bento">
           <a href="#case-soonday" className="vv-bento-hero">
             <img src={VIBE_BIG.img} alt={VIBE_BIG.title} />

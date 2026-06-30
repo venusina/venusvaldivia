@@ -6,7 +6,6 @@ import { MobileMenu } from './components/MobileMenu.jsx';
 import { HeroEditorial, HeroMinimal, HeroImage } from './components/Hero.jsx';
 import { LatestProjects } from './components/LatestProjects.jsx';
 import { VibeSection } from './components/VibeSection.jsx';
-import { FactsStrip } from './components/FactsStrip.jsx';
 import { ContactSection } from './components/ContactSection.jsx';
 import { AboutPage } from './pages/AboutPage.jsx';
 import { ProjectsPage } from './pages/ProjectsPage.jsx';
@@ -103,7 +102,6 @@ function Site({ tweaks }) {
           <>
             <Hero accent={accent} />
             <LatestProjects cardVariant={tweaks.cardStyle} accent={accent} />
-            <FactsStrip accent={accent} />
             <VibeSection accent={accent} />
             <ContactSection accent={accent} />
           </>

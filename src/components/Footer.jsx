@@ -8,11 +8,11 @@ export function Footer() {
           <Caps>© 2026 Venus Valdivia</Caps>
         </div>
         <div className="vv-footer-r">
-          {['LinkedIn', 'Read.cv'].map((x) => (
+          {['LinkedIn', 'Download.cv'].map((x) => (
             <a
               key={x}
               href={x === 'LinkedIn' ? 'https://www.linkedin.com/in/venus-darmody-6016791a' : '/images/venus%20UX%202026.pdf'}
-              {...(x === 'Read.cv' ? { download: 'venus UX 2026.pdf' } : {})}
+              {...(x === 'Download CV' ? { download: 'venus UX 2026.pdf' } : {})}
               target={x === 'LinkedIn' ? '_blank' : undefined}
               rel={x === 'LinkedIn' ? 'noreferrer noopener' : undefined}
             >

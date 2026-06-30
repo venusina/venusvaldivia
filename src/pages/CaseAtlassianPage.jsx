@@ -38,8 +38,7 @@ function CSHero({ accent }) {
               product design and Advanced Roadmaps optimisation.
             </p>
             <div className="vv-cs-hero-role">
-              <span className="vv-cs-hero-role-rule" style={{ background: accent }} />
-              <Caps>Senior Product Designer</Caps>
+              <Caps>Role: Senior Product Designer</Caps>
             </div>
           </div>
 
@@ -91,7 +90,7 @@ function CSMapping() {
         <div className="vv-cs-mapping-art">
           <img
             alt="Current state product mapping"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDSXOIBsE3ySVjZuy6J-opwYANjTB7UiE33v5T79yBKeouknrEthXxmIfgbHZIb5J4yP1zeEACug9TTxzhYUnklsAlzTc_5fpWTzPWHka8tTZFIlAUq8EoRQSWUlPG2VyaRhhan7ojApi72COLoTK4alPrNR9eFy-SBrINJBtm1UsP82ZajT_recekCQ8xErZVqkMGhv7f_IbLb1GwmrIgCRDCjHZ2qy3FdBq88cIfcKeFKpfHdGJe-pbgznTyJ4mSusxxoeFJ86SLx"
+            src="/images/ProductMapping.png"
           />
         </div>
         <p className="vv-cs-caption">
@@ -211,7 +210,7 @@ function CSApproach({ accent }) {
             <div className="vv-cs-iter-art">
               <img
                 alt="Design critique"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-yY1Yn3OCeLpXgj9hKyuw8qugIj5mK9rfWqE6tDVl2spoubZ-Bb5xaVMZjybE41fNSsgTXjYcTEDsEHPLHjKpKPTCDPwILgSEGCEOAy_xx7bo1EjAWuxnrDxqSpRTyxyeeZnmLPeCqvnsOETIlYWvjzXCILoXFReHx7wsKcwF9cAIPyHeGs1vOLlJOZ-KmvJM3UK9HRQAPw3eX38CB8LHebFEaRyYMFsrHU94tBW1G0S4QR5BLIx4odWaX4chzloc_NaO8mmI7hv8"
+                src="/images/Atlassian Iteractive design.png"
               />
             </div>
             <div className="vv-cs-iter-text">
