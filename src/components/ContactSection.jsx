@@ -33,8 +33,8 @@ export function ContactSection({ accent }) {
             </a>
             <a href="/images/venus%20UX%202026.pdf" download="venus UX 2026.pdf" className="vv-contact-row">
               <div>
-                <Caps color="rgba(255,255,255,0.45)">Elsewhere</Caps>
-                <div className="vv-contact-v">LinkedIn · Read.cv</div>
+                <Caps color="rgba(255,255,255,0.45)">Resume</Caps>
+                <div className="vv-contact-v">Download resume </div>
               </div>
               <MIcon name="arrow_outward" size={18} style={{ opacity: 0.5 }} />
             </a>

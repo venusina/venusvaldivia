@@ -65,6 +65,22 @@ function Site({ tweaks }) {
     }
   }, [menuOpen]);
 
+  useEffect(() => {
+    const scrollContact = () => {
+      const h = (window.location.hash || '').replace(/^#\/?/, '').split('?')[0];
+      if (route === 'home' && h === 'contact') {
+        const el = document.getElementById('contact');
+        if (el) {
+          el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }
+    };
+
+    scrollContact();
+    window.addEventListener('hashchange', scrollContact);
+    return () => window.removeEventListener('hashchange', scrollContact);
+  }, [route]);
+
   const Hero = tweaks.hero === 'minimal' ? HeroMinimal :
     tweaks.hero === 'image' ? HeroImage :
     HeroEditorial;
