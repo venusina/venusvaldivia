@@ -10,6 +10,7 @@ export function Header({ accent, onOpenMenu }) {
         <nav className="vv-nav-desktop">
           <a href="#about">About</a>
           <a href="#projects">All projects</a>
+          <a href="#case-ai-engineering">AI workflow</a>
         </nav>
         <div className="vv-header-cta">
           <span className="vv-status">

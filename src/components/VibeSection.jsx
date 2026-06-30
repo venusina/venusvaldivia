@@ -23,7 +23,7 @@ export function VibeSection({ accent }) {
   return (
     <section className="vv-section" id="vibe">
       <div className="vv-container">
-        <SectionHeader eyebrow="Personal Projects" title="UX Engineering & AI Workflows" />
+        <SectionHeader eyebrow="AI-Integrated Initiatives" title="UX Engineering & AI Workflows" />
         <div className="vv-bento">
           <a href="#case-soonday" className="vv-bento-hero">
             <img src={VIBE_BIG.img} alt={VIBE_BIG.title} />
@@ -51,10 +51,10 @@ export function VibeSection({ accent }) {
                 Read <MIcon name="arrow_outward" size={14} />
               </div>
             </a>
-            <a href="#" className="vv-bento-cta-card">
-              <div className="vv-bento-cta-title">View all<br />side projects</div>
+            <a href="#case-ai-engineering" className="vv-bento-cta-card">
+              <div className="vv-bento-cta-title">Explore<br />AI-integrated workflow </div>
               <div className="vv-bento-cta-foot">
-                <Caps color="rgba(255,255,255,0.6)">07 projects</Caps>
+                <Caps color="rgba(255,255,255,0.6)">View</Caps>
                 <MIcon name="arrow_forward" size={22} />
               </div>
             </a>

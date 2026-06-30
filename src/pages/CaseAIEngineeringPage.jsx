@@ -32,16 +32,15 @@ function CSHero() {
           </Caps>
           <h1 className="vv-cs-hero-title">Rethinking AI-Generated Design</h1>
           <p className="vv-cs-hero-lede">
-            Beyond &lsquo;vibe coding&rsquo; and repetitive prompt-based templates. This study explores
-            an advanced UX Engineering workflow that treats AI as a precision instrument rather than a
+            This study explores an advanced UX Engineering workflow that treats AI as a precision instrument rather than a
             black-box generator, prioritizing architectural control and brand-specific visual systems.
           </p>
         </div>
 
-        <div style={{ width: '100%', aspectRatio: '21/9', overflow: 'hidden', background: 'var(--surface-2)' }}>
+        <div style={{ width: '100%', aspectRatio: '21/9', overflow: 'hidden', background: 'var(--surface-2)', boxShadow: '0 16px 40px rgba(0, 0, 0, 0.14)' }}>
           <img
             alt="Rethinking AI-Generated Design hero"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCnhDi_CYK_Z8LCdV7Y8GOattk4w0_GTzNzo7aMuCsmHv8QSX74JkqC1YWYnc0waE-j6JfKPYErJt8cPNmwc-_mqWTAYm95Ejz_MJUWABCPw4GGCdMhmYscBC7PwnSL8BwgiLMZ7mCqy_SlEm8MXMITnceicoq20xzAYdhSkWPRtmWiQzimHejlbdXcOp4-T11K10fpulzWtwEutbgQG9iakMNxpep_2xQ8UmTeDz9XRLq9Kd_Sx6lYnQM1GW-1bOVSEUWsCdQ--v9T"
+            src="/images/VS-code.png"
             style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'grayscale(1) contrast(1.25)' }}
           />
         </div>
@@ -228,10 +227,10 @@ function CSFrontEnd() {
             that distinguishes polished products from generated artifacts.
           </p>
 
-          <div style={{ width: '100%', aspectRatio: '16/9', overflow: 'hidden', background: 'var(--surface-2)', marginTop: 24 }}>
+          <div style={{ width: '100%', aspectRatio: '16/9', overflow: 'hidden', background: 'var(--surface-2)', marginTop: 24, boxShadow: '0 16px 40px rgba(0, 0, 0, 0.14)' }}>
             <img
               alt="Front-end integration workflow"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuB4Vz1TbXON93KoedUhk86PuNcw1AMt4pzu1BK8O3sd1PMa1PpaaDQkcxT5eYOz2hUmYqWw2raCdOJPxN0TtBU0PAFO_LFYJez0TXqNXXn1de3aTS2ceDg2tuRxjxuYeXj0ArgW0LVIPzL1L1seWq7CEMWqorkdAoqQ6LJ8gGZRr1VydODfTjc65W_Vnybwfae6BzBb6nRDXl53yqNnNBleeNRMSca93xmQAAp2C2bXqKGBwM52mmTXrh1CEEvWdKGPJ7ggzZaG-vC-"
+              src="/images/vercel.png"
               style={{ width: '100%', height: '100%', objectFit: 'cover', filter: 'grayscale(1) contrast(1.25)' }}
             />
           </div>
@@ -331,7 +330,7 @@ function CSConclusion() {
           <Caps style={{ letterSpacing: '0.2em', display: 'block', marginBottom: 20 }}>
             CONCLUSION
           </Caps>
-          <h2 className="vv-cs-display">Bridging Design &amp; Engineering</h2>
+          <h2 className="vv-cs-display" style={{ fontSize: 'clamp(28px, 3.2cqi, 40px)' }}>Bridging Design &amp; Engineering</h2>
           <p className="vv-cs-body" style={{ fontSize: 'clamp(18px, 2.2cqi, 24px)', lineHeight: 1.5, color: 'var(--ink-dim)' }}>
             The evolving role of the UX Engineer is no longer about manual labor, but about
             high-level curation. By understanding AI&rsquo;s limitations — its tendency toward
@@ -346,10 +345,10 @@ function CSConclusion() {
               display: 'inline-flex',
               alignItems: 'center',
               justifyContent: 'center',
-              marginTop: 40,
+              marginTop: 32,
               padding: '14px 32px',
               background: 'var(--ink)',
-              color: 'var(--paper)',
+              color: '#fff',
               fontFamily: 'var(--display)',
               fontWeight: 700,
               fontSize: 13,
@@ -359,7 +358,7 @@ function CSConclusion() {
               border: 'none',
             }}
           >
-            EXPLORE MORE STUDIES
+            EXPLORE PROJECTS
           </a>
         </div>
       </div>

@@ -818,6 +818,8 @@ body {
   display: flex; flex-direction: column;
   justify-content: space-between;
   min-height: 160px;
+  text-decoration: none;
+  color: inherit;
 }
 @container site (min-width: 760px) { .vv-bento-card { padding: 28px; } }
 .vv-bento-card-title {
