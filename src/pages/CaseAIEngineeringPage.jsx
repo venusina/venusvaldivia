@@ -32,8 +32,7 @@ function CSHero() {
           </Caps>
           <h1 className="vv-cs-hero-title">UX ENGINEERING PROCESS</h1>
           <p className="vv-cs-hero-lede">
-            This study explores an advanced UX Engineering workflow that treats AI as a precision instrument rather than a
-            black-box generator, prioritiSing architectural control and brand-specific visual systems.
+            This study explores an advanced UX Engineering workflow that treats AI as a precision instrument, prioritising ai workflows and brand-specific designsystems.
           </p>
         </div>
 
