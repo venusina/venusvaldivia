@@ -178,13 +178,7 @@ function CSVerticals() {
               <div style={{
                 position: 'absolute',
                 inset: 0,
-                background: 'linear-gradient(to top, rgba(0,0,0,0.7) 0%, transparent 50%)',
-                display: 'flex',
-                alignItems: 'flex-end',
-                padding: 24,
-              }}>
-                <Caps style={{ color: '#fff', letterSpacing: '0.15em' }}>{v.label}</Caps>
-              </div>
+              }} />
             </div>
           ))}
         </div>
