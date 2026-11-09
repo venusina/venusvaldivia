@@ -10,6 +10,7 @@ export function useRoute() {
     if (h === 'case-ai-engineering') return 'case-ai-engineering';
     if (h === 'case-tradeaccept') return 'case-tradeaccept';
     if (h === 'case-newscorp') return 'case-newscorp';
+    if (h === 'case-safetyculture') return 'case-safetyculture';
     return 'home';
   };
 

@@ -72,7 +72,8 @@ export const PROJECTS_ALL = [
     title: 'SafetyCulture',
     year: '2021',
     blurb: 'Designing the inspection tool for frontline workers. A mission-critical application focused on speed, reliability, and extreme clarity under pressure.',
-    img: '/images/safetyculture.png'
+    img: '/images/safetyculture.png',
+    href: '#case-safetyculture'
   },
   {
     id: 'transport-nsw',
