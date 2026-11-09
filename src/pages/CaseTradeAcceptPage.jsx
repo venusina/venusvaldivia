@@ -60,11 +60,11 @@ function CSHero() {
           </p>
         </div>
 
-        <div style={{ width: '100%', borderRadius: 4, overflow: 'hidden', background: C.cardBg }}>
+        <div style={{ display: 'flex', justifyContent: 'center', background: C.cardBg, borderRadius: 4, overflow: 'hidden' }}>
           <img
             alt="TradeAccept dashboard"
             src="/images/tradeaccept/ta-hero.png"
-            style={{ width: '100%', display: 'block' }}
+            style={{ maxWidth: '100%', display: 'block', height: 'auto' }}
           />
         </div>
 
@@ -116,11 +116,11 @@ function CSChallenge() {
           </div>
         </div>
 
-        <div style={{ marginTop: 48, borderRadius: 4, overflow: 'hidden', background: C.cardBg }}>
+        <div style={{ marginTop: 48, display: 'flex', justifyContent: 'center', background: C.cardBg, borderRadius: 4, overflow: 'hidden' }}>
           <img
             alt="Heuristic evaluation of the existing ASX TradeAccept interface"
             src="/images/tradeaccept/ta-challenge.png"
-            style={{ width: '100%', display: 'block' }}
+            style={{ maxWidth: '100%', display: 'block', height: 'auto' }}
           />
         </div>
       </div>
@@ -161,8 +161,8 @@ function CSApproach() {
         <div style={{ marginTop: 48, display: 'flex', flexDirection: 'column', gap: 12 }}>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 12 }}>
             {['/images/tradeaccept/ta-heuristic-1.png', '/images/tradeaccept/ta-heuristic-2.png', '/images/tradeaccept/ta-heuristic-3.png'].map((src, i) => (
-              <div key={i} style={{ borderRadius: 4, overflow: 'hidden', background: 'rgba(255,255,255,0.3)' }}>
-                <img alt={`Heuristic evaluation finding ${i + 1}`} src={src} style={{ width: '100%', display: 'block' }} />
+              <div key={i} style={{ borderRadius: 4, overflow: 'hidden', background: 'rgba(255,255,255,0.3)', display: 'flex', justifyContent: 'center' }}>
+                <img alt={`Heuristic evaluation finding ${i + 1}`} src={src} style={{ maxWidth: '100%', display: 'block', height: 'auto' }} />
               </div>
             ))}
           </div>
@@ -171,11 +171,11 @@ function CSApproach() {
           </p>
         </div>
 
-        <div style={{ marginTop: 24, borderRadius: 4, overflow: 'hidden' }}>
+        <div style={{ marginTop: 24, display: 'flex', justifyContent: 'center', borderRadius: 4, overflow: 'hidden' }}>
           <img
             alt="Approach comparison — before and after interface critique"
             src="/images/tradeaccept/ta-approach-compare.png"
-            style={{ width: '100%', display: 'block' }}
+            style={{ maxWidth: '100%', display: 'block', height: 'auto' }}
           />
         </div>
       </div>
@@ -201,11 +201,11 @@ function CSDashboard() {
           </div>
         </div>
 
-        <div style={{ borderRadius: 4, overflow: 'hidden', background: C.cardBg }}>
+        <div style={{ display: 'flex', justifyContent: 'center', background: C.cardBg, borderRadius: 4, overflow: 'hidden' }}>
           <img
             alt="Redesigned TradeAccept dashboard"
             src="/images/tradeaccept/ta-dashboard.png"
-            style={{ width: '100%', display: 'block' }}
+            style={{ maxWidth: '100%', display: 'block', height: 'auto' }}
           />
         </div>
 
@@ -252,11 +252,11 @@ function CSTradeEntry() {
           <span style={{ flex: 1, fontSize: 14, color: C.blue, fontWeight: 600, minWidth: 120 }}>Compact, multi-leg workspace</span>
         </div>
 
-        <div style={{ borderRadius: 4, overflow: 'hidden', background: C.cardBg }}>
+        <div style={{ display: 'flex', justifyContent: 'center', background: C.cardBg, borderRadius: 4, overflow: 'hidden' }}>
           <img
             alt="Trade entry prototype — compact multi-leg workspace"
             src="/images/tradeaccept/ta-trade-entry.png"
-            style={{ width: '100%', display: 'block' }}
+            style={{ maxWidth: '100%', display: 'block', height: 'auto' }}
           />
         </div>
         <p style={{ fontSize: 12, color: C.mid, marginTop: 10 }}>
@@ -329,11 +329,11 @@ function CSUsability() {
           </div>
         </div>
 
-        <div style={{ borderRadius: 4, overflow: 'hidden', background: C.cardBg, marginBottom: 48 }}>
+        <div style={{ display: 'flex', justifyContent: 'center', background: C.cardBg, borderRadius: 4, overflow: 'hidden', marginBottom: 48 }}>
           <img
             alt="Usability testing session — dashboard and trade flow"
             src="/images/tradeaccept/ta-usability.png"
-            style={{ width: '100%', display: 'block' }}
+            style={{ maxWidth: '100%', display: 'block', height: 'auto' }}
           />
         </div>
 
