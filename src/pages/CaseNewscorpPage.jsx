@@ -349,16 +349,6 @@ function NCDesign() {
           </div>
         </div>
 
-        <div style={{ height: 1, background: C.border, marginBottom: 48 }} />
-
-        {/* Full design annotation screenshot */}
-        <div style={{ display: 'flex', justifyContent: 'center' }}>
-          <img
-            src="/images/newscorp/nc-design-section.png"
-            alt="Design response and iterations overview"
-            style={{ maxWidth: '100%', display: 'block', height: 'auto' }}
-          />
-        </div>
       </div>
     </section>
   );
