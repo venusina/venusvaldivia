@@ -158,7 +158,20 @@ function CSApproach() {
           </div>
         </div>
 
-        <div style={{ marginTop: 48, borderRadius: 4, overflow: 'hidden' }}>
+        <div style={{ marginTop: 48, display: 'flex', flexDirection: 'column', gap: 12 }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: 12 }}>
+            {['/images/tradeaccept/ta-heuristic-1.png', '/images/tradeaccept/ta-heuristic-2.png', '/images/tradeaccept/ta-heuristic-3.png'].map((src, i) => (
+              <div key={i} style={{ borderRadius: 4, overflow: 'hidden', background: 'rgba(255,255,255,0.3)' }}>
+                <img alt={`Heuristic evaluation finding ${i + 1}`} src={src} style={{ width: '100%', display: 'block' }} />
+              </div>
+            ))}
+          </div>
+          <p style={{ fontSize: 11, fontWeight: 600, letterSpacing: '1.32px', textTransform: 'uppercase', color: C.navy, opacity: 0.6, textAlign: 'right' }}>
+            Heuristic evaluation · source interface
+          </p>
+        </div>
+
+        <div style={{ marginTop: 24, borderRadius: 4, overflow: 'hidden' }}>
           <img
             alt="Approach comparison — before and after interface critique"
             src="/images/tradeaccept/ta-approach-compare.png"
