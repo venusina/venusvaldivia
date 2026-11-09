@@ -9,6 +9,7 @@ export function useRoute() {
     if (h === 'case-soonday') return 'case-soonday';
     if (h === 'case-ai-engineering') return 'case-ai-engineering';
     if (h === 'case-tradeaccept') return 'case-tradeaccept';
+    if (h === 'case-newscorp') return 'case-newscorp';
     return 'home';
   };
 

@@ -8,8 +8,7 @@ export const PROJECTS = [
     sub: 'AI, voice UI, and text-to-audio',
     blurb: 'Translating complex LLM capabilities into intuitive, high-retention user experiences across Voice, Audio, and AI Guidance.',
     img: '/images/newscorp.png',
-    href: 'https://www.figma.com/deck/J9kbRWsnNOsoFnMldZNLFK',
-    external: true,
+    href: '#case-newscorp',
     role: 'Design Lead', duration: '6 months', team: 'Team of 6'
   },
   {
@@ -44,8 +43,7 @@ export const PROJECTS_ALL = [
     year: '2023',
     blurb: 'My work included taking complex LLM capabilities and translating them into intuitive, high-retention user experiences (Voice, Audio, and AI Guidance).',
     img: '/images/newscorp.png',
-    href: 'https://www.figma.com/deck/J9kbRWsnNOsoFnMldZNLFK',
-    external: true
+    href: '#case-newscorp',
   },
   {
     id: 'axs',
