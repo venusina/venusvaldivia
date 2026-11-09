@@ -12,6 +12,7 @@ import { ProjectsPage } from './pages/ProjectsPage.jsx';
 import { CaseAtlassianPage } from './pages/CaseAtlassianPage.jsx';
 import { CaseSoondayPage } from './pages/CaseSoondayPage.jsx';
 import { CaseAIEngineeringPage } from './pages/CaseAIEngineeringPage.jsx';
+import { CaseTradeAcceptPage } from './pages/CaseTradeAcceptPage.jsx';
 import {
   TweaksPanel,
   TweakSection,
@@ -98,6 +99,8 @@ function Site({ tweaks }) {
           <CaseSoondayPage accent={accent} />
         ) : route === 'case-ai-engineering' ? (
           <CaseAIEngineeringPage accent={accent} />
+        ) : route === 'case-tradeaccept' ? (
+          <CaseTradeAcceptPage accent={accent} />
         ) : (
           <>
             <Hero accent={accent} />

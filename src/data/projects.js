@@ -18,11 +18,10 @@ export const PROJECTS = [
     tag: 'Growth & Monetisation',
     year: '2023',
     title: 'AXS',
-    sub: 'Platform re-build',
+    sub: 'TradeAccept — Platform re-build',
     blurb: 'Leading complex transaction platforms and research operations for trade accept. Enterprise-grade architecture without compromising usability.',
     img: '/images/axs.png',
-    href: 'https://www.figma.com/deck/eNuaMFyLH7eB49uoVvSvkb',
-    external: true,
+    href: '#case-tradeaccept',
     role: 'Product Lead', duration: '12 months', team: 'Team of 11'
   },
   {
@@ -50,12 +49,11 @@ export const PROJECTS_ALL = [
   },
   {
     id: 'axs',
-    title: 'AXS',
+    title: 'AXS — TradeAccept',
     year: '2022',
     blurb: 'Revolutionising the live event ticketing journey through biometric entry and dynamic seat mapping. Prioritising the fan experience across mobile and terminal platforms.',
     img: '/images/axs.png',
-    href: 'https://www.figma.com/deck/eNuaMFyLH7eB49uoVvSvkb',
-    external: true
+    href: '#case-tradeaccept'
   },
   {
     id: 'atlassian',
